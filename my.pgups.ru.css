@@ -1,0 +1,327 @@
+@-moz-document url-prefix("https://my.pgups.ru/") {
+    body {
+        --text-color: #c0c4d1;
+        --sec-text-color: #74788d;
+        --backgorund: #242939;
+        --sec-background: #2d3347;
+        --th-background: #46506f;
+        --btn-color: #39415b;
+        --btn-hover-color: #5d78ff;
+    }
+    
+    #app {
+        background-color: var(--backgorund);
+    }
+    
+    .kt-subheader .kt-subheader__main .kt-subheader__title {
+        color: var(--text-color)
+    }
+    
+    .kt-content {
+        background-color: var(--backgorund);
+    }
+    
+    .kt-header {
+        background-color: var(--backgorund);
+        border-bottom: 1px solid var(--th-background);
+    }
+    
+    .kt-footer {
+        background-color: var(--backgorund);
+        border-top: 1px solid var(--th-background);
+    }
+    
+    
+    .kt-aside {
+        border-right: 1px solid var(--th-background)
+    }
+    
+    .kt-portlet,
+    .chartjs-render-monitor {
+        border-color: var(--backgorund);
+    
+        background-color: var(--sec-background);
+    }
+    
+    .kt-portlet .kt-portlet__head .kt-portlet__head-label .kt-portlet__head-title,
+    .kt-slider .kt-slider__head .kt-slider__label,
+    .text-font-title__widget,
+    .kt-widget-10__title,
+    .kt-widget-10 .kt-widget-10__wrapper .kt-widget-10__details .kt-widget-10__desc,
+    .kt-widget-13__title,
+    .blur-content,
+    .kt-widget-18 .kt-widget-18__item .kt-widget-18__desc .kt-widget-18__title,
+    .kt-widget-18 .kt-widget-18__summary .kt-widget-18__label,
+    .grid-calendar .calendar-week .grid-cell .lesson,
+    .grid-calendar .calendar-week-header .grid-cell > div > div {
+        color: #c0c4d1 !important;
+    }
+    
+    .progress {
+        border: 1px solid var(--th-background);
+        background-color: var(--th-background);
+    }
+    
+    .kt-portlet .kt-portlet__head {
+        border-bottom: 0px;
+    }
+    
+    .btn.btn-bold {
+        font-weight: 600;
+        color: #c0c4d1;
+    }
+    
+    .btn.btn-default {
+        border: 1px;
+        border-radius: 2px;
+    
+        background-color: var(--btn-color);
+    }
+    
+    .btn.btn-label {
+        background-color: var(--btn-color);
+        color: var(--text-color);
+        cursor: text !important;
+    }
+    
+    .btn-secondary {
+        background-color: transparent;
+        border: 1px solid;
+        border-color: var(--sec-background);
+        color: var(--text-color);
+    }
+    
+    .btn-secondary:hover {
+        background-color: var(--btn-hover-color);
+        border: 1px solid;
+        border-color: var(--sec-background);
+        color: var(--text-color);
+    }
+    
+    .kt-slider .kt-slider__head .kt-slider__nav .kt-slider__nav-next,
+    .kt-slider .kt-slider__head .kt-slider__nav .kt-slider__nav-prev {
+        background-color: var(--sec-background);
+        position: relative;
+        width: auto;
+        opacity: 1;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+        transition: all 0.3s;
+    }
+    
+    #kt_widget_total_portfolio_chart {
+        opacity: 0;
+    }
+    
+    .kt-radio {
+        color: var(--sec-text-color)
+    }
+    
+    
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+        background-color: transparent;
+    }
+    
+    .kt-font-dark {
+        color: var(--text-color) !important
+    }
+    
+    .table td {
+        border-top: 1px solid var(--th-background)
+    }
+    
+    .show > .btn-secondary.dropdown-toggle,
+    .btn-secondary:focus,
+    .btn-secondary.active,
+    .btn-secondary:active,
+    .btn-secondary:hover {
+        background-color: var(--th-background);
+        border: 1px solid var(--th-background);
+        opacity: 1;
+        color: var(--text-color)
+    }
+    
+    .grid-calendar .calendar-week .grid-cell,
+    .grid-calendar .calendar-week-header .grid-cell > div,
+    .grid-calendar .calendar-week-freetime .freetime,
+    .grid-calendar .calendar-week-header .grid-cell-first-et {
+        background-color: var(--sec-background);
+    }
+    
+    .grid-calendar .calendar-week .grid-cell {
+        border-right: 1px solid var(--th-background);
+        border-bottom: 1px solid var(--th-background);
+    }
+    
+    .grid-calendar .grid-cell {
+        border-right: 1px solid var(--th-background);
+        border-bottom: 1px solid var(--th-background);
+    }
+    
+    .grid-calendar .calendar-week-header .grid-cell-first-et {
+        border-left: 1px solid var(--th-background);
+    }
+    
+    .grid-calendar .calendar-week .grid-cell:first-child {
+        border-left: 1px solid var(--th-background);
+    }
+    
+    .grid-calendar .calendar-week-header .grid-cell {
+        border-top: 1px solid var(--th-background);
+    }
+    
+    .grid-calendar .calendar-week-freetime .freetime {
+        border-right: 1px solid var(--sec-background);
+        border-bottom: 1px solid var(--th-background);
+    }
+    
+    .lesson_room,
+    .lesson_teacher_default {
+        color: var(--sec-text-color)
+    }
+    
+    .fc-unthemed th,
+    .fc-unthemed td,
+    .fc-unthemed thead,
+    .fc-unthemed tbody,
+    .fc-unthemed .fc-divider,
+    .fc-unthemed .fc-row,
+    .fc-unthemed .fc-content,
+    .fc-unthemed .fc-popover,
+    .fc-unthemed .fc-list-view,
+    .fc-unthemed .fc-list-heading td {
+        border-color: var(--th-background);
+    }
+    
+    .fc-unthemed .fc-toolbar .fc-button {
+        background-color: var(--btn-color);
+        color: var(--text-color);
+        opacity: 1;
+        border: 1px solid var(--btn-color)
+    }
+    
+    .fc-unthemed .fc-toolbar .fc-button .fc-icon {
+        color: var(--text-color)
+    }
+    
+    .fc-unthemed .fc-toolbar .fc-button:hover {
+        background-color: var(--btn-hover-color);
+        color: var(--text-color);
+        opacity: 1;
+        border: 1px solid var(--btn-hover-color)
+    }
+    
+    .fc-unthemed th.fc-day-header > a,
+    .fc-unthemed th.fc-day-header > span,
+    .fc-unthemed .fc-toolbar h2 {
+        color: var(--text-color);
+    }
+    
+    .kt-timeline .kt-timeline__item.kt-timeline__item--success .kt-timeline__item-section .kt-timeline__item-section-border,
+    .kt-timeline .kt-timeline__item.kt-timeline__item--brand .kt-timeline__item-section .kt-timeline__item-section-border {
+        background-color: var(--sec-background);
+        border-color: var(--sec-background)
+    }
+    
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid var(--th-background);
+    }
+    
+    .kt-timeline .kt-timeline__item:before {
+        background-color: var(--th-background);
+    }
+    
+    .disc-zach,
+    .kt-badge.kt-badge--warning {
+        background-color: rgba(255, 184, 34, .2);
+        color: white;
+    }
+    .disc-zach {
+        border: 1px solid rgba(255, 184, 34, .2);
+        opacity: 0;
+    }
+    
+    .disc-exam {
+        background-color: #fd397a;
+        opacity: 0;
+        color: white;
+    }
+    
+    .kt-badge.kt-badge--danger {
+        background: rgba(253, 57, 122, .2);
+    }
+    
+    .kt-badge.kt-badge--info {
+        background: rgba(85, 120, 235, .2);
+    }
+    
+    .form-control {
+        background-color: var(--th-background);
+        border-color: var(--th-background);
+        color: var(--sec-text-color)
+    }
+    
+    .form-control:focus {
+        background-color: var(--th-background);
+        color: var(--text-color)
+    }
+    
+    .kt-datatable > .kt-datatable__table {
+        background-color: var(--sec-background);
+        border-radius: 3px;
+        color: var(--text-color)
+    }
+    
+    .kt-datatable.kt-datatable--default {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .kt-datatable.kt-datatable--default > .kt-datatable__table > .kt-datatable__head .kt-datatable__row > .kt-datatable__cell > span,
+    .kt-datatable.kt-datatable--default > .kt-datatable__table > .kt-datatable__foot .kt-datatable__row > .kt-datatable__cell > span,
+    .kt-datatable.kt-datatable--default > .kt-datatable__table > .kt-datatable__body .kt-datatable__row > .kt-datatable__cell > span {
+        color: var(--text-color)
+    }
+    
+    .kt-datatable > .kt-datatable__table > .kt-datatable__head .kt-datatable__row,
+    .kt-datatable > .kt-datatable__table > .kt-datatable__body .kt-datatable__row,
+    .kt-datatable > .kt-datatable__table > .kt-datatable__foot .kt-datatable__row {
+        border-bottom: 1px solid var(--th-background);
+    }
+    
+    .kt-badge.kt-badge--success {
+        color: #ffffff;
+        background: rgba(29, 201, 183, .2);
+    }
+    
+    .kt-datatable > .kt-datatable__pager > .kt-datatable__pager-nav > li > .kt-datatable__pager-link.kt-datatable__pager-link--disabled {
+        color: var(--text-color);
+        opacity: 1;
+        background-color: var(--btn-color)
+    }
+    
+    .kt-datatable > .kt-datatable__pager > .kt-datatable__pager-nav > li > .kt-datatable__pager-link.kt-datatable__pager-link--disabled:hover {
+        color: #93a2dd;
+        background: #f0f3ff;
+        opacity: 1;
+    }
+    
+    .kt-grid-nav-v3 .kt-grid-nav-v3__item {
+        background-color: var(--btn-color)
+    }
+    
+    .kt-grid-nav-v3 .kt-grid-nav-v3__item .kt-grid-nav-v3__item-title {
+        color: var(--text-color)
+    }
+    }
