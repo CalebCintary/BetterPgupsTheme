@@ -7,6 +7,7 @@
 @description    A new userstyle
 @author         CalebCintary
 ==/UserStyle== */
+
 @-moz-document url-prefix("https://my.pgups.ru/") {
     body {
         --text-color: #c0c4d1;
