@@ -3,6 +3,7 @@
 @namespace    github.com/CalebCintary/pgups-dark-theme-stylys
 @version      1.0.0
 @license      unlicense
+@updateURL    https://github.com/CalebCintary/pgups-dark-theme-stylys/raw/main/my.pgups.user.css
 @preprocessor default
 ==/UserStyle== */
 @-moz-document url-prefix("https://my.pgups.ru/") {
