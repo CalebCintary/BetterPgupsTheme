@@ -7,7 +7,6 @@
 @description    A new userstyle
 @author         CalebCintary
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://my.pgups.ru/") {
     body {
         --text-color: #c0c4d1;
@@ -17,6 +16,8 @@
         --th-background: #46506f;
         --btn-color: #39415b;
         --btn-hover-color: #5d78ff;
+
+        background-color: #242939;
     }
 
     #app {
@@ -352,5 +353,26 @@
     .authPage .intranetPortal,
     .authPage .authPageForm .authPageFormBlock .title {
         color: var(--text-color)
+    }
+
+    .mp-table {
+        border: 1px solid var(--th-background);
+        width: 100%!important;
+        border-collapse: initial!important;
+        border-spacing: 0!important;
+    }
+
+
+    .mp-table thead tr th:last-child {
+        border-right: 2px solid var(--th-background);
+    }
+
+    .mp-table tbody tr td,
+    .mp-table tbody tr td:last-child,
+    .mp-table tbody tr:last-child td,
+    .mp-table thead tr th {
+        border-color: var(--th-background);
+        color: var(--text-color);
+        /*     padding: 1em 0.75rem; */
     }
 }
