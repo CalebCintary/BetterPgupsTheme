@@ -1,7 +1,7 @@
     /* ==UserStyle==
 @name         MyPgups dark theme
 @namespace    github.com/openstyles/stylus
-@version      1.0.4
+@version      1.0.5
 @license      unlicense
 @updateURL    https://github.com/CalebCintary/pgups-dark-theme-stylys/raw/main/my.pgups.user.css
 @description    A new userstyle
@@ -405,5 +405,24 @@
 
         .mp-table tbody tr td:first-child {
             border-left: 2px solid var(--th-background);
+        }
+
+        .fc .fc-scrollgrid,
+        .fc-theme-standard td,
+        .fc-theme-standard th {
+            border-color: var(--background);
+        }
+
+
+        a.fc-daygrid-day-number {
+            color: var(--sec-text-color)
+        }
+
+        a.fc-daygrid-day-number:hover {
+            color: var(--text-color)
+        }
+
+        .fc .fc-daygrid-day.fc-day-today {
+            background-color: var(--th-background)
         }
     }
