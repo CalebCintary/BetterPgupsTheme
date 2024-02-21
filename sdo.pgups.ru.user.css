@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           SDO Pgups Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        1.0.2
+@version        1.0.3
 @updateURL      https://github.com/CalebCintary/pgups-dark-theme-stylys/raw/main/sdo.pgups.ru.user.css
 @description    A new userstyle
 @author         CalebCintary
@@ -17,10 +17,6 @@
 /* Fix for border radius under buttons*/
 .btn {
     border-radius: 0.5rem;
-}
-
-.btn {
-    
 }
 
 /**
@@ -58,6 +54,10 @@
 
 
 /* Fix for avatar and profile on header */
+
+#h_rightblock_wrapper {
+    padding: 0;
+}
 
 #h_rightblock_wrapper.nocaret .usermenu .moodle-actionmenu .dropdown-toggle .userbutton {
     margin-right: 1rem;
